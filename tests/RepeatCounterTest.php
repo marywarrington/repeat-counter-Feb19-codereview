@@ -1,8 +1,8 @@
 <!-- testing with php unit, use this template for guidance -->
 <?php
-    require_once __DIR__ . '/../src/Class.php';
+    require_once __DIR__ . '/../src/RepeatCounter.php';
 
-    class RepeatsTest extends PHPUnit_Framework_TestCase
+    class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
         function test_methodToTest_inputDescription()
         {

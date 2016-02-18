@@ -1,0 +1,21 @@
+Specs:
+
+1. explode a string
+    input: "here is a string";
+    output: array("here", "is", "a", "string");
+2. run a loop to identify IF the word is in the exploded string
+    input1: "here is a string";
+    input2: "here";
+    input3: "zebra";
+
+    result2: TRUE;
+    result3: FALSE;
+3. run a loop to count how many times the word is in the string
+    input1: "here is a string";
+    input2: "here";
+        result: 1;
+    input3: "I love love love zebras!";
+    input4: "love";
+        result: 3;
+    input5: "zebra";
+        result: 1;
