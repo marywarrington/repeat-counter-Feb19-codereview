@@ -2,7 +2,7 @@
 <?php
     require_once __DIR__ . '/../src/Class.php';
 
-    class ClassTest extends PHPUnit_Framework_TestCase
+    class RepeatsTest extends PHPUnit_Framework_TestCase
     {
         function test_methodToTest_inputDescription()
         {
