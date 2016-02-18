@@ -22,10 +22,25 @@
             $test_RepeatCounter = new RepeatCounter;
             $input1 = "here";
             $input2 = "here is a string";
+            $input3 = "zebra";
+            // Act
+            $result1 = $test_RepeatCounter->countRepeats($input1, $input2);
+            $result2 = $test_RepeatCounter->countRepeats($input3, $input2);
+            // Assert
+            $this->assertEquals(1, $result1);
+            $this->assertEquals(0, $result2);
+        }
+
+        function test_countRepeats_findAll()
+        {
+            // Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $input1 = "love";
+            $input2 = "I love love love zebras!";
             // Act
             $result = $test_RepeatCounter->countRepeats($input1, $input2);
             // Assert
-            $this->assertEquals(1, $result);
+            $this->assertEquals(3, $result);
         }
     }
 
