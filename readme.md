@@ -17,7 +17,7 @@ _This web app is designed to compare two user inputs: a single word and a longer
 
 ## Known Bugs
 
-_This application is not fully designed and may have unknown bugs._
+_This application does not handle punctuation, and does not return partial matches._
 
 ## Support and contact details
 

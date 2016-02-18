@@ -19,8 +19,11 @@
         $word = $_GET['word'];
         $sentence = $_GET['sentence'];
         $result = $my_repeatCounter->countRepeats($word, $sentence);
-        return $app['twig']->render('results.html.twig', array('results' => $result, 'word' => $word, 'sentence' => $sentence)
-        );
+        return $app['twig']->render('results.html.twig', array(
+            'results' => $result,
+            'word'=> $word,
+            'sentence' => $sentence
+        ));
     });
 
     return $app;

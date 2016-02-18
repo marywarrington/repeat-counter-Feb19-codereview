@@ -1,4 +1,3 @@
-<!-- testing with php unit, use this template for guidance -->
 <?php
     require_once __DIR__ . '/../src/RepeatCounter.php';
 
