@@ -1,8 +1,10 @@
 {% if form %}
-  <form action='' method=''>
+  <form action='/results' method='post'>
     <div class="form-group">
-      <label for=''></label>
-      <input name='' id='' type='text' class='form-control'>
+      <label for='word'>Word</label>
+      <input name='word' id='word' type='text' class='form-control'>
+      <label for='sentence'>Sentence</label>
+      <input name='sentence' id='sentence' type='text' class='form-control'>
     </div>
     <button type='submit' class='btn btn-success'>Submit</button>
   </form>
