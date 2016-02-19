@@ -1,5 +1,9 @@
 Specs:
 
+0. return string without punctuation
+    input: "example: this! string!";
+    output: "example this string";
+
 1. explode a string
     input: "here is a string";
     output: array("here", "is", "a", "string");
